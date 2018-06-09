@@ -38,7 +38,7 @@
  - **-task** String
   
    Permissible values: 
-   + **'blastn' **
+   + **'blastn'**
    + **'blastn-short'**
    + **'dc-megablast'**
    + **'megablast'**
