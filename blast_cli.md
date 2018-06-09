@@ -35,14 +35,14 @@
 
  ### General search options
 
- - **-task ** String
+ - **-task** String
   
    Permissible values: 
-   + ** 'blastn' **
-   + ** 'blastn-short' **
-   + ** 'dc-megablast' **
-   + ** 'megablast' **
-   + ** 'rmblastn' **
+   + **'blastn' **
+   + **'blastn-short'**
+   + **'dc-megablast'**
+   + **'megablast'**
+   + **'rmblastn'**
 
    Task to execute
 
