@@ -261,17 +261,17 @@
    Filtering algorithm ID to apply to the BLAST database as hard masking
     * Incompatible with:  db_soft_mask, subject, subject_loc
 
- -perc_identity <Real, 0..100>
+ - **-perc_identity** Real, 0..100
    Percent 
 
- -qcov_hsp_perc <Real, 0..100>
+ - **-qcov_hsp_perc** Real, 0..100
 
    Percent query coverage per hsp
 
- -max_hsps <Integer, >=1>
+ - **-max_hsps** Integer, >=1
 
    Set maximum number of HSPs per subject sequence to save for each query
- -culling_limit <Integer, >=0>
+ - **-culling_limit** Integer, >=0
 
    If the query range of a hit is enveloped by that of at least this many
 
@@ -279,19 +279,19 @@
 
     * Incompatible with:  best_hit_overhang, best_hit_score_edge
 
- -best_hit_overhang <Real, (>0 and <0.5)>
+ - **-best_hit_overhang** Real, (>0 and <0.5)
 
    Best Hit algorithm overhang value (recommended value: 0.1)
 
     * Incompatible with:  culling_limit
 
- -best_hit_score_edge <Real, (>0 and <0.5)>
+ - **-best_hit_score_edge** Real, (>0 and <0.5)
 
    Best Hit algorithm score edge value (recommended value: 0.1)
 
     * Incompatible with:  culling_limit
 
- -max_target_seqs <Integer, >=1>
+ - **-max_target_seqs** Integer, >=1
 
    Maximum number of aligned sequences to keep 
 
@@ -301,43 +301,43 @@
 
     * Incompatible with:  num_descriptions, num_alignments
 
- *** Discontiguous MegaBLAST options
+ ### Discontiguous MegaBLAST options
 
- -template_type <String, `coding', `coding_and_optimal', `optimal'>
+ - **-template_type** String, `coding', `coding_and_optimal', `optimal'
 
    Discontiguous MegaBLAST template type
 
     * Requires:  template_length
 
- -template_length <Integer, Permissible values: '16' '18' '21' >
+ - **-template_length** Integer, Permissible values: '16' '18' '21' 
 
    Discontiguous MegaBLAST template length
 
     * Requires:  template_type
 
- *** Statistical options
+ ### Statistical options
 
- -dbsize <Int8>
+ - **-dbsize** Int8
 
    Effective length of the database 
 
- -searchsp <Int8, >=0>
+ - **-searchsp** Int8, >=0
 
    Effective length of the search space
 
- -sum_stats <Boolean>
+ - **-sum_stats** Boolean
 
    Use sum statistics
 
  *** Search strategy options
 
- -import_search_strategy <File_In>
+ - **-import_search_strategy** File_In
 
    Search strategy to use
 
     * Incompatible with:  export_search_strategy
 
- -export_search_strategy <File_Out>
+ - **-export_search_strategy** File_Out
 
    File name to record the search strategy used
 
@@ -346,49 +346,49 @@
 
  *** Extension options
 
- -xdrop_ungap <Real>
+ - **-xdrop_ungap** Real
 
    X-dropoff value (in bits) for ungapped extensions
 
- -xdrop_gap <Real>
+ - **-xdrop_gap** Real
 
    X-dropoff value (in bits) for preliminary gapped extensions
 
- -xdrop_gap_final <Real>
+ - **-xdrop_gap_final** Real
 
    X-dropoff value (in bits) for final gapped alignment
 
- -no_greedy
+ - **-no_greedy**
 
    Use non-greedy dynamic programming extension
 
- -min_raw_gapped_score <Integer>
+ - **-min_raw_gapped_score** Integer
 
    Minimum raw gapped score to keep an alignment in the preliminary gapped and
 
    traceback stages
 
- -ungapped
+ - **-ungapped**
 
    Perform ungapped alignment only?
 
- -window_size <Integer, >=0>
+ - **-window_size** Integer, >=0
 
-`   Multiple hits window size, use 0 to specify 1-hit algorithm
+   Multiple hits window size, use 0 to specify 1-hit algorithm
 
- -off_diagonal_range <Integer, >=0>
+ - **-off_diagonal_range** Integer, >=0
 
    Number of off-diagonals to search for the 2nd hit, use 0 to turn off
 
    Default = `0'
 
- *** Miscellaneous options
+ ### Miscellaneous options
 
- -parse_deflines
+ - **-parse_deflines**
 
    Should the query and subject defline(s) be parsed?
 
- -num_threads <Integer, >=1>
+ - **-num_threads** Integer, >=1
 
    Number of threads (CPUs) to use in the BLAST search
 
@@ -396,7 +396,7 @@
 
     * Incompatible with:  remote
 
- -remote
+ - **-remote**
 
    Execute search remotely?
 
