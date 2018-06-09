@@ -5,6 +5,7 @@
 ### OPTIONAL ARGUMENTS
 
  - **-h**
+   
    Print USAGE and DESCRIPTION;  ignore all other parameters
 
  - **-help**
@@ -19,7 +20,6 @@
  - **-query** <File_In>
 
    Input file name
-
    Default = `-'
 
  - **-query_loc** <String>
