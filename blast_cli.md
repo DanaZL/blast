@@ -5,7 +5,6 @@
 ### OPTIONAL ARGUMENTS
 
  - **-h**
-
    Print USAGE and DESCRIPTION;  ignore all other parameters
 
  - **-help**
