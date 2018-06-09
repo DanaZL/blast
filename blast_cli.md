@@ -134,15 +134,15 @@
    Options 6, 7, and 10 can be additionally configured to produce
    a custom format specified by space delimited format specifiers.
    The supported format specifiers are:
-   	    qseqid means Query Seq-id
-   	       qgi means Query GI
-   	      qacc means Query accesion
-   	   qaccver means Query accesion.version
-   	      qlen means Query sequence length
-   	    sseqid means Subject Seq-id
-   	 sallseqid means All subject Seq-id(s), separated by a ';'
-   	       sgi means Subject GI
-   	    sallgi means All subject GIs
+   +     qseqid means Query Seq-id
+   + 	       qgi means Query GI
+   + 	      qacc means Query accesion
+   + 	   qaccver means Query accesion.version
+   + 	      qlen means Query sequence length
+   + 	    sseqid means Subject Seq-id
+   + 	 sallseqid means All subject Seq-id(s), separated by a ';'
+   + 	       sgi means Subject GI
+   + 	    sallgi means All subject GIs
    	      sacc means Subject accession
    	   saccver means Subject accession.version
    	   sallacc means All subject accessions
