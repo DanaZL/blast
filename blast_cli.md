@@ -48,19 +48,19 @@
 
    Default = `megablast'
 
- - **-db ** String
+ - **-db** String
 
    BLAST database name
 
     * Incompatible with:  subject, subject_loc
 
- - **-out ** File_Out
+ - **-out** File_Out
 
    Output file name
 
    Default = `-'
 
- - **-evalue Real **
+ - **-evalue Real**
 
    Expectation value (E) threshold for saving hits 
 
